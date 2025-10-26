@@ -1,8 +1,14 @@
-const conf={
-    appwriteUrl: String(import.meta.env.VITE_APP_APPWRITE_URL),
-    appwriteProjectID: String(import.meta.env.VITE_APP_APPWRITE_PROJECT_ID),
-    appwriteDatabaseID: String(import.meta.env.VITE_APP_APPWRITE_DATABASE_ID),
-    appwriteCollectionID: String(import.meta.env.VITE_APP_APPWRITE_COLLECTION_ID),
-    apwriteBucktedID: String(import.meta.env.VITE_APP_APPWRITE_BUCKET_ID),
+const conf = {
+    appwriteUrl : String(import.meta.env.VITE_APPWRITE_URL),
+    appwriteProjectId : String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
+
+    appwriteDatabaseId : String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
+
+    appwriteCollectionId : String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
+
+    appwriteBucketId : String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
+
+    editorApi : String(import.meta.env.VITE_TINY_EDITOR_API_KEY),
 }
-export default conf
+
+export default conf;
